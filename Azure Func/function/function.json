@@ -1,0 +1,17 @@
+{
+    "scriptFile": "function_app.py",
+    "bindings": [
+      {
+        "name": "req",
+        "type": "httpTrigger",
+        "direction": "in",
+        "authLevel": "function"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "out"
+      }
+    ]
+  }
+  
